@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="http://example.org/phenogy#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:obi="http://purl.obolibrary.org/obo/obi.owl#"
+    xmlns:qudt="http://www.qudt.org/2.1/schema/qudt.owl#"
+    xmlns:emmo="https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/emmo-full.ttl#"
+    xmlns:emmoec="https://raw.githubusercontent.com/emmo-repo/domain-electrochemistry/refs/heads/master/electrochemistry.ttl#"
+    xmlns:battinfo="https://raw.githubusercontent.com/BIG-MAP/BattINFO/refs/heads/master/battinfo.ttl#"
+    >
+
+  <owl:Ontology rdf:about="https://github.com/RobinLefevre-PY/phenogy-ontology">
+    <rdfs:label>PHENOGY Ontology</rdfs:label>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <dc:creator>Robin Lefevre (PHENOGY team)</dc:creator>
+    <dc:date>2025-06-02</dc:date>
+    <dc:description>
+      PHENOGY: unified battery ontology importing OBI, QUDT, EMMO, BattINFO.
+    </dc:description>
+
+    <!-- Remote imports remain the same -->
+    <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    <owl:imports rdf:resource="http://www.qudt.org/2.1/schema/qudt.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/emmo-full.ttl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/BIG-MAP/BattINFO/refs/heads/master/battinfo.ttl"/>
+  </owl:Ontology>
+</rdf:RDF>

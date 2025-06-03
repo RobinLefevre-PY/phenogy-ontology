@@ -6,10 +6,17 @@
   "schema:productID": "RM0001",
   "schema:name": "C-NERGY™ SUPER C65T",
   "schema:description": "Conductive carbon black additive for lithium-ion batteries.",
+  
+  "schema:manufacturer": {
+    "@id": "https://www.wikidata.org/wiki/Q917717",
+    "schema:name": "Imerys"
+  },
+
   "battinfo:hasCASNumber": {
-  "@id": "https://www.wikidata.org/wiki/Q764245",
-  "schema:identifier": "1333-86-4"
-},
+    "@id": "https://www.wikidata.org/wiki/Q764245",
+    "schema:identifier": "1333-86-4"
+  },
+
   "battinfo:hasMaterialClass": "emmoec:ConductiveCarbonBlack",
 
   "battinfo:hasProperty": [
@@ -21,13 +28,19 @@
     },
     {
       "@type": "battinfo:MaterialProperty",
-      "battinfo:hasPropertyName": "Toluene Extract",
+      "battinfo:hasPropertyName": {
+        "@id": "https://www.wikidata.org/wiki/Q15779",
+        "schema:name": "Toluene"
+      },
       "battinfo:hasValue": "0.10",
       "battinfo:hasUnit": "%"
     },
     {
       "@type": "battinfo:MaterialProperty",
-      "battinfo:hasPropertyName": "Ash Content",
+      "battinfo:hasPropertyName": {
+        "@id": "https://www.wikidata.org/wiki/Q132756",
+        "schema:name": "Ash"
+      },
       "battinfo:hasValue": "0.025",
       "battinfo:hasUnit": "%"
     },
@@ -69,7 +82,10 @@
     },
     {
       "@type": "battinfo:MaterialProperty",
-      "battinfo:hasPropertyName": "Sulfur",
+      "battinfo:hasPropertyName": {
+        "@id": "https://www.wikidata.org/wiki/Q41264",
+        "schema:name": "Sulfur"
+      },
       "battinfo:hasValue": "0.02",
       "battinfo:hasUnit": "%"
     },
@@ -82,6 +98,5 @@
       "battinfo:hasValue": "1.5",
       "battinfo:hasUnit": "ppm"
     }
-
   ]
 }

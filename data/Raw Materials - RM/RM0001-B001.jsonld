@@ -1,0 +1,67 @@
+{
+  "@context": "https://raw.githubusercontent.com/RobinLefevre-PY/phenogy-ontology/main/context/phenogy-context.jsonld",
+  "@id": "http://phenogy.com/celltech/rawmaterials/RM0001_B001",
+  "@type": "battinfo:MaterialBatch",
+
+  "schema:productID": "B001",
+
+  "battinfo:batchOf": {
+    "@id": "http://phenogy.com/celltech/rawmaterials/RM0001",
+    "@type": "battinfo:RawMaterial"
+  },
+
+  "schema:weight": {
+    "@type": "schema:QuantitativeValue",
+    "schema:value": 5.0,
+    "schema:unitText": "kg"
+  },
+
+  "battinfo:hasProperty": [
+    {
+      "@type": "battinfo:MaterialProperty",
+      "battinfo:hasPropertyName": {
+        "@id": "https://www.wikidata.org/wiki/Q373499",
+        "schema:name": "Moisture Content"
+      },
+      "battinfo:hasValue": "0.10",
+      "battinfo:hasUnit": "%",
+      "phenogy:hasMeasurementMethod": {
+        "@id": "https://www.wikidata.org/wiki/Q59368147",
+        "schema:name": "ASTM D1509"
+      }
+    },
+    {
+      "@type": "battinfo:MaterialProperty",
+      "battinfo:hasPropertyName": {
+        "@id": "https://www.wikidata.org/wiki/Q123865069",
+        "schema:name": "Ash Content"
+      },
+      "battinfo:hasValue": "0.025",
+      "battinfo:hasUnit": "%"
+    },
+    {
+      "@type": "battinfo:MaterialProperty",
+      "battinfo:hasPropertyName": {
+        "@id": "https://www.wikidata.org/wiki/Q677",
+        "schema:name": "Iron"
+      },
+      "battinfo:hasValue": "1.5",
+      "battinfo:hasUnit": "ppm"
+    },
+    {
+      "@type": "battinfo:MaterialProperty",
+      "battinfo:hasPropertyName": {
+        "@id": "https://www.wikidata.org/wiki/Q682",
+        "schema:name": "Sulfur"
+      },
+      "battinfo:hasValue": "0.02",
+      "battinfo:hasUnit": "%"
+    },
+    {
+      "@type": "battinfo:MaterialProperty",
+      "battinfo:hasPropertyName": "BET Surface Area",
+      "battinfo:hasValue": "62",
+      "battinfo:hasUnit": "m²/g"
+    }
+  ]
+}

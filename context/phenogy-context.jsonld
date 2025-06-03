@@ -1,12 +1,22 @@
 {
-  "@context": {
-    "phenogy":   "https://github.com/RobinLefevre-PY/phenogy-ontology#",
-    "battinfo":  "https://raw.githubusercontent.com/BIG-MAP/BattINFO/refs/heads/master/battinfo.ttl#",
-    "emmo":      "https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/emmo-full.ttl#",
-    "emmoec":    "https://emmo-repo.github.io/domain/electrochemistry/emmoec.ttl#",
-    "rdf":       "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs":      "http://www.w3.org/2000/01/rdf-schema#",
-    "xsd":       "http://www.w3.org/2001/XMLSchema#",
-    "schema":    "http://schema.org/"
-  }
+    "@context":
+    {
+        "phenogy": "https://github.com/RobinLefevre-PY/phenogy-ontolog#y",
+        "battinfo": "https://raw.githubusercontent.com/BIG-MAP/BattINFO/refs/heads/master/battinfo.ttl#",
+        "emmo": "https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/emmo-full.ttl#",
+        "emmoec": "https://emmo-repo.github.io/domain/electrochemistry/emmoec.ttl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "schema": "http://schema.org/",
+        "phenogy:hasMeasurementMethod":
+        {
+            "@id": "https://github.com/RobinLefevre-PY/phenogy-ontology#hasMeasurementMethod",
+            "@type": "@id"
+        },
+        "phenogy:specificationType":
+        {
+            "@id": "https://github.com/RobinLefevre-PY/phenogy-ontology#specificationType"
+        }
+    }
 }

@@ -275,6 +275,5 @@
       "phenogy:specificationType": "guaranteed",
       "rdfs:comment": "Weight loss during heating between 105 and 950°C."
     }
-  ],
-  "rdfs:comment": "(1) Weight loss during heating between 105 and 950°C. (2) Water with 10% acetone on 5 g carbon. (3) Inductively Coupled Plasma Measurement."
+  ]
 }

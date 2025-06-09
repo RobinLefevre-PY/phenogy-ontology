@@ -14,7 +14,7 @@
   },
   "battinfo:hasProperty": [
     {
-      "@id": "http://phenogy.com/property/absorption_stiffness_value",
+      "@id": "absorption_stiffness_value",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": "Absorption Stiffness Value",
       "battinfo:hasValue": "32",
@@ -24,7 +24,7 @@
       "rdfs:comment": "Water with 10% acetone on 5g carbon"
     },
     {
-      "@id": "http://phenogy.com/property/ash_content",
+      "@id": "ash_content",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q123865069",
@@ -39,7 +39,7 @@
       "phenogy:specificationType": "guaranteed"
     },
     {
-      "@id": "http://phenogy.com/property/ash_content",
+      "@id": "ash_content",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q123865069",
@@ -54,7 +54,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/bet_surface_area",
+      "@id": "bet_surface_area",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q622205",
@@ -69,7 +69,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/chromium",
+      "@id": "chromium",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q725",
@@ -82,7 +82,7 @@
       "rdfs:comment": "Inductively Coupled Plasma Measurement"
     },
     {
-      "@id": "http://phenogy.com/property/copper",
+      "@id": "copper",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q753",
@@ -95,7 +95,7 @@
       "rdfs:comment": "Inductively Coupled Plasma Measurement"
     },
     {
-      "@id": "http://phenogy.com/property/density",
+      "@id": "density",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q29539",
@@ -107,7 +107,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/grit_content_20um",
+      "@id": "grit_content_20um",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": "Grit Content >20 µm",
       "battinfo:hasValue": "25",
@@ -119,7 +119,7 @@
       "phenogy:specificationType": "guaranteed"
     },
     {
-      "@id": "http://phenogy.com/property/grit_content_20um",
+      "@id": "grit_content_20um",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": "Grit Content >20 µm (typical)",
       "battinfo:hasValue": "5",
@@ -131,7 +131,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/grit_content_45um",
+      "@id": "grit_content_45um",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": "Grit Content >45 µm",
       "battinfo:hasValue": "5",
@@ -143,7 +143,7 @@
       "phenogy:specificationType": "guaranteed"
     },
     {
-      "@id": "http://phenogy.com/property/grit_content_45um",
+      "@id": "grit_content_45um",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": "Grit Content >45 µm (typical)",
       "battinfo:hasValue": "<2",
@@ -155,7 +155,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/iron",
+      "@id": "iron",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q677",
@@ -168,7 +168,7 @@
       "rdfs:comment": "Inductively Coupled Plasma Measurement"
     },
     {
-      "@id": "http://phenogy.com/property/iron_ferrous_nonferrous",
+      "@id": "iron_ferrous_nonferrous",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q677",
@@ -180,7 +180,7 @@
       "phenogy:specificationType": "guaranteed"
     },
     {
-      "@id": "http://phenogy.com/property/iron_particles",
+      "@id": "iron_particles",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q677",
@@ -192,7 +192,7 @@
       "phenogy:specificationType": "guaranteed"
     },
     {
-      "@id": "http://phenogy.com/property/iron_total",
+      "@id": "iron_total",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q677",
@@ -204,7 +204,7 @@
       "phenogy:specificationType": "guaranteed"
     },
     {
-      "@id": "http://phenogy.com/property/moisture",
+      "@id": "moisture",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q373499",
@@ -219,7 +219,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/nickel",
+      "@id": "nickel",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q744",
@@ -232,7 +232,7 @@
       "rdfs:comment": "Inductively Coupled Plasma Measurement"
     },
     {
-      "@id": "http://phenogy.com/property/ph",
+      "@id": "ph",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q40936",
@@ -246,7 +246,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/sulfur",
+      "@id": "sulfur",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q682",
@@ -261,7 +261,7 @@
       "phenogy:specificationType": "typical"
     },
     {
-      "@id": "http://phenogy.com/property/toluene_extract",
+      "@id": "toluene_extract",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": "Toluene Extract",
       "battinfo:hasValue": "0.1",
@@ -273,7 +273,7 @@
       "phenogy:specificationType": "guaranteed"
     },
     {
-      "@id": "http://phenogy.com/property/vanadium",
+      "@id": "vanadium",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "@id": "https://www.wikidata.org/wiki/Q722",
@@ -286,7 +286,7 @@
       "rdfs:comment": "Inductively Coupled Plasma Measurement"
     },
     {
-      "@id": "http://phenogy.com/property/volatile_content",
+      "@id": "volatile_content",
       "@type": "battinfo:MaterialProperty",
       "battinfo:hasPropertyName": {
           "schema:name": "Volatile Content"

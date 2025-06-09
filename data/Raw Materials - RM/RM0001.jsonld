@@ -1,54 +1,69 @@
 {
-  "@context": "https://raw.githubusercontent.com/RobinLefevre-PY/phenogy-ontology/main/context/phenogy-context.jsonld",
-  "@id": "http://phenogy.com/celltechrawmaterials/RM0001",
-  "@type": [
-    "battinfo:RawMaterial",
-    "battinfo:CarbonBlack"
-  ],
-
-  "schema:productID": "RM0001",
-  "schema:name": "C-NERGY™ SUPER C65T",
-  "schema:description": "Conductive carbon black additive for lithium-ion batteries.",
-  "schema:alternateName": ["Super C65T", "C65T"],
-  "schema:keywords": ["carbon black", "Super C", "Imerys", "anode", "battery"],
-
-  "schema:manufacturer": {
-    "@id": "https://www.wikidata.org/wiki/Q917717",
-    "schema:name": "Imerys"
-  },
-
-  "battinfo:hasChemicalFormula": "C",
-
-  "battinfo:hasCASNumber": {
-    "@id": "https://www.wikidata.org/wiki/Q764245",
-    "schema:identifier": "1333-86-4"
-  },
-
-  "battinfo:hasMaterialClass": [
-    "emmoec:AnodeMaterial",
-    "emmoec:ConductiveCarbonBlack"
-  ],
-
-  "schema:appearance": "Fine black powder",
-
-  "battinfo:hasProperty": [
+    "@context": "https://raw.githubusercontent.com/RobinLefevre-PY/phenogy-ontology/main/context/phenogy-context.jsonld",
+    "@id": "http://phenogy.com/celltechrawmaterials/RM0001",
+    "@type":
+    [
+        "battinfo:RawMaterial",
+        "battinfo:CarbonBlack"
+    ],
+    "schema:productID": "RM0001",
+    "schema:name": "C-NERGY™ SUPER C65T",
+    "schema:description": "Conductive carbon black additive for lithium-ion batteries.",
+    "schema:alternateName":
+    [
+        "Super C65T",
+        "C65T"
+    ],
+    "schema:keywords":
+    [
+        "carbon black",
+        "Super C",
+        "Imerys",
+        "anode",
+        "battery"
+    ],
+    "schema:manufacturer":
     {
-      "@type": "battinfo:MaterialProperty",
-      "battinfo:hasPropertyName": {
-        "@id": "https://www.wikidata.org/wiki/Q29539",
-        "schema:name": "Density"
-      },
-      "battinfo:hasValue": "125",
-      "battinfo:hasUnit": "kg/m³"
+        "@id": "https://www.wikidata.org/wiki/Q917717",
+        "schema:name": "Imerys"
     },
+    "battinfo:hasChemicalFormula": "C",
+    "battinfo:hasCASNumber":
     {
-      "@type": "battinfo:MaterialProperty",
-      "battinfo:hasPropertyName": {
-        "@id": "https://www.wikidata.org/wiki/Q145623",
-        "schema:name": "Molar Mass"
-      },
-      "battinfo:hasValue": "12.01",
-      "battinfo:hasUnit": "g/mol"
-    }
-  ]
+        "@id": "https://www.wikidata.org/wiki/Q764245",
+        "schema:identifier": "1333-86-4"
+    },
+    "battinfo:hasMaterialClass":
+    [
+        "emmoec:AnodeMaterial",
+        "emmoec:ConductiveCarbonBlack"
+    ],
+    "schema:appearance": "Fine black powder",
+    "battinfo:hasProperty":
+    [
+        {
+            "@id": "density_typical",
+            "@type": "battinfo:MaterialProperty",
+            "battinfo:hasPropertyName":
+            {
+                "@id": "https://www.wikidata.org/wiki/Q29539",
+                "schema:name": "Density"
+            },
+            "battinfo:hasValue": "125",
+            "battinfo:hasUnit": "kg/m³",
+            "phenogy:hasMeasurementMethod": "Internal Method 26",
+            "phenogy:specificationType": "typical"
+        },
+        {
+            "@id": "molar_mass",
+            "@type": "battinfo:MaterialProperty",
+            "battinfo:hasPropertyName":
+            {
+                "@id": "https://www.wikidata.org/wiki/Q145623",
+                "schema:name": "Molar Mass"
+            },
+            "battinfo:hasValue": "12.01",
+            "battinfo:hasUnit": "g/mol"
+        }
+    ]
 }

@@ -1,7 +1,7 @@
 {
     "@context":
     {
-        "phenogy": "https://github.com/RobinLefevre-PY/phenogy-ontolog#y",
+        "phenogy": "https://github.com/RobinLefevre-PY/phenogy-ontolog#",
         "battinfo": "https://raw.githubusercontent.com/BIG-MAP/BattINFO/refs/heads/master/battinfo.ttl#",
         "emmo": "https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/emmo-full.ttl#",
         "emmoec": "https://emmo-repo.github.io/domain/electrochemistry/emmoec.ttl#",

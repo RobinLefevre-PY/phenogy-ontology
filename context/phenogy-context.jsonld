@@ -1,14 +1,50 @@
 {
     "@context":
     {
-        "phenogy": "https://github.com/RobinLefevre-PY/phenogy-ontology#",
+        "phenogy": "https://github.com/RobinLefevre-PY/phenogy-ontology/context/phenogy-context.jsonld#",
+        
         "battinfo": "https://raw.githubusercontent.com/BIG-MAP/BattINFO/refs/heads/master/battinfo.ttl#",
-        "emmo": "https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/emmo-full.ttl#",
+        //"emmo": "https://raw.githubusercontent.com/emmo-repo/EMMO/refs/heads/master/emmo-full.ttl#",
         "emmoec": "https://emmo-repo.github.io/domain/electrochemistry/emmoec.ttl#",
+        "battery":"https://raw.githubusercontent.com/emmo-repo/domain-battery/refs/heads/master/battery.ttl",
+        "chameo":"https://raw.githubusercontent.com/emmo-repo/domain-characterisation-methodology/refs/heads/main/chameo.ttl",
+        "chems":"https://raw.githubusercontent.com/emmo-repo/domain-chemical-substance/refs/heads/main/chemical-substance.ttl",
+
+        "brick": "https://brickschema.org/schema/Brick#",
+        "csvw": "http://www.w3.org/ns/csvw#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcam": "http://purl.org/dc/dcam/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dcmitype": "http://purl.org/dc/dcmitype/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "doap": "http://usefulinc.com/ns/doap#",
+        "emmo": "https://w3id.org/emmo#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "geo": "http://www.opengis.net/ont/geosparql#",
+        "odrl": "http://www.w3.org/ns/odrl/2/",
+        "org": "http://www.w3.org/ns/org#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prof": "http://www.w3.org/ns/dx/prof/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "qb": "http://purl.org/linked-data/cube#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "https://schema.org/",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "sosa": "http://www.w3.org/ns/sosa/",
+        "ssn": "http://www.w3.org/ns/ssn/",
+        "time": "http://www.w3.org/2006/time#",
+        "vann": "http://purl.org/vocab/vann/",
+        "void": "http://rdfs.org/ns/void#",
+        "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+        "xml": "http://www.w3.org/XML/1998/namespace",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "schema": "http://schema.org/",
+        
+    },
         "phenogy:hasMeasurementMethod":
         {
             "@id": "https://github.com/RobinLefevre-PY/phenogy-ontology#hasMeasurementMethod",
@@ -17,6 +53,19 @@
         "phenogy:specificationType":
         {
             "@id": "https://github.com/RobinLefevre-PY/phenogy-ontology#specificationType"
+        },
+        "phenogy:hasMoisture":
+        {
+            "@id": "https://www.wikidata.org/wiki/Q217651", //Change to local uri
+        },
+        "phenogy:EX431S3":
+        {
+            "@id": null,
+        },
+        "phenogy:MB32":
+        {
+            "@id": null,
         }
+    }
     }
 }
